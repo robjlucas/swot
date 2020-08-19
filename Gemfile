@@ -7,7 +7,7 @@ group :development do
   gem "nokogiri", "~> 1.5"
   gem "rake", "~> 10.0"
   gem "rdoc", "~> 3.12"
-  gem "bundler", "~> 1.5"
-  gem "jeweler", "~> 1.8"
+  gem "bundler", "~> 2.1.4"
+  gem "jeweler", "~> 2.3.9"
   gem "minitest", "~> 4.7.5"
 end
