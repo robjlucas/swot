@@ -2,6 +2,8 @@
 
 [![Build Status](https://api.travis-ci.org/leereilly/swot.svg)](https://travis-ci.org/leereilly/swot) [![Gem Version](https://badge.fury.io/rb/swot.svg)](http://badge.fury.io/rb/swot)
 
+Forked from [leereilly/swot](https://github.com/leereilly/swot), since the original has been archived and is no longer being maintained.
+
 If you have a product or service and offer **academic discounts**, there's a good chance there's some manual component to the approval process. Perhaps `.edu` email addresses are automatically approved because, for the most part at least, they're associated with American post-secondary educational institutions. Perhaps `.ac.uk` email addresses are automatically approved because they're guaranteed to belong to British universities and colleges. Unfortunately, not every country has an education-specific TLD (Top Level Domain) and plenty of schools use `.com` or `.net`.
 
 Swot is a community-driven or crowdsourced library for verifying that domain names and email addresses are tied to a legitimate university of college - more specifically, an academic institution providing higher education in tertiary, quaternary or any other kind of post-secondary education in any country in the world.
@@ -10,13 +12,9 @@ Swot is a community-driven or crowdsourced library for verifying that domain nam
 
 ### Installation
 
-Swot is a Ruby gem, so you'll need a little Ruby-fu to get it working. Simply
+Add this to your `Gemfile` before doing a `bundle install`:
 
-`gem install swot`
-
-Or add this to your `Gemfile` before doing a `bundle install`:
-
-`gem 'swot'`
+`gem "swot", git: 'git://github.com/robjlucas/swot.git'`
 
 ## Requirements
 
