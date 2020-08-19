@@ -1,6 +1,5 @@
 # Swot :apple:
-
-[![Build Status](https://api.travis-ci.org/leereilly/swot.svg)](https://travis-ci.org/leereilly/swot) [![Gem Version](https://badge.fury.io/rb/swot.svg)](http://badge.fury.io/rb/swot)
+![ruby](https://github.com/robjlucas/swot/workflows/Ruby/badge.svg)
 
 Forked from [leereilly/swot](https://github.com/leereilly/swot), since the original has been archived and is no longer being maintained.
 
